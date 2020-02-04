@@ -19,7 +19,7 @@
   },
   "lint-staged": {
     "*.md": [
-      "lint-md --fix"
+      "lint-md"
     ]
   },
   "repository": {
