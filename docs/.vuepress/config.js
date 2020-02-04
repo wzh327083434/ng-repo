@@ -31,12 +31,24 @@ module.exports = {
         title: "UiRouter", // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         children: []
+      },
+      {
+        title: "RxJs", // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: []
+      },
+      {
+        title: "Tools", // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: [
+          'pages/vs-code/extensions'
+        ]
       }
     ],
-    lastUpdated: 'Last Updated',
-    repo: 'https://github.com/wzh327083434/ng-repo.git',
-    repoLabel: 'github',
-    docsDir: 'docs',
+    lastUpdated: "Last Updated",
+    repo: "https://github.com/wzh327083434/ng-repo.git",
+    repoLabel: "github",
+    docsDir: "docs",
     smoothScroll: true
   }
 };

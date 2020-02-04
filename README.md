@@ -1,4 +1,4 @@
-# Angular学习文档资料
+# Angular 学习文档资料
 
 ## 依赖环境
 1.node  

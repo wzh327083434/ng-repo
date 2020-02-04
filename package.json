@@ -8,6 +8,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "lint-md": "lint-md .",
+    "lint-md:fix": "lint-md --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +28,7 @@
   },
   "homepage": "https://github.com/wzh327083434/ng-repo#readme",
   "devDependencies": {
+    "lint-md-cli": "^0.1.2",
     "vuepress": "^1.3.0"
   }
 }

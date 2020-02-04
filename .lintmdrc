@@ -1,0 +1,27 @@
+# https://www.npmjs.com/package/lint-md
+{
+  "excludeFiles": [],
+  "rules": {
+    "space-round-alphabet": 2,
+    "space-round-number": 2,
+    "no-empty-code-lang": 2,
+    "no-empty-delete": 2,
+    "no-empty-url": 2,
+    "no-empty-list": 2,
+    "no-empty-code": 2,
+    "no-empty-inlinecode": 2,
+    "no-empty-blockquote": 2,
+    "no-special-characters": 2,
+    "use-standard-ellipsis": 2,
+    "no-fullwidth-number": 2,
+    "no-space-in-emphasis": 2,
+    "no-space-in-link": 2,
+    "no-multiple-space-blockquote": 2,
+    "no-trailing-punctuation": 2,
+    "no-space-in-inlinecode": 2,
+    "no-long-code": [2, {
+      "length": 500,
+      "exclude": []
+    }]
+  }
+}

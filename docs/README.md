@@ -29,6 +29,12 @@ home: true
 
 </li>
 <li class="item">
+<img class="item-icon" src="/assets/img/tool.svg">
+
+[项目工具配置](/pages/vs-code/extensions)  
+
+</li>
+<li class="item">
 <img class="item-icon" src="/assets/img/other.svg">
 
 [TSLint Doc](https://palantir.github.io/tslint/)  
