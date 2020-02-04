@@ -1,4 +1,4 @@
-# angular学习文档资料
+# Angular学习文档资料
 
 ## 依赖环境
 1.node  
@@ -12,8 +12,13 @@
 5.vuepress  
 
 ## 项目启动
+- `yarn start`
+
+## 项目构建
+- 测试环境: `yarn build:dev`
+- 生产环境: `yarn build:prod`
 
 ## 项目文档
-- [目录](/docs/README)
+- [目录(/docs/README.md)](/docs/README)
 - 查看编辑文档: `yarn docs:dev`
 - 打包文档: `yarn docs:build`
