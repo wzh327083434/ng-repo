@@ -3,4 +3,4 @@
 1. [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)  
 2. [mdlint](https://marketplace.visualstudio.com/items?itemName=ZhixiangZhang.mdlint#review-details)  
 
-5中文
+6中文

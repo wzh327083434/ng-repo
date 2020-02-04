@@ -6,7 +6,6 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "lint-staged",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "lint-md": "lint-md .",
@@ -14,12 +13,12 @@
   },
   "husky": {
       "hooks": {
-          "pre-commit": "npm test",
-          "pre-push": "npm test"
+          "pre-commit": "lint-staged",
+          "pre-push": "lint-staged"
       }
   },
   "lint-staged": {
-    "*.{md,markdown}": [
+    "*.md": [
       "lint-md"
     ]
   },
