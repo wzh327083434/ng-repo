@@ -6,15 +6,20 @@
     "doc": "docs"
   },
   "scripts": {
+    "test": "lint-staged",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "lint-md": "lint-md .",
-    "lint-md:fix": "lint-md --fix .",
-    "precommit": "lint-staged",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint-md:fix": "lint-md --fix ."
+  },
+  "husky": {
+      "hooks": {
+          "pre-commit": "npm test",
+          "pre-push": "npm test"
+      }
   },
   "lint-staged": {
-    "/**/*.{md,markdown}": [
+    "*.{md,markdown}": [
       "lint-md"
     ]
   },

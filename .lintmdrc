@@ -1,6 +1,8 @@
 # https://www.npmjs.com/package/lint-md
 {
-  "excludeFiles": [],
+  "excludeFiles": [
+    "node_modules/"
+  ],
   "rules": {
     "space-round-alphabet": 2,
     "space-round-number": 2,
