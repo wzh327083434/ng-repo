@@ -40,9 +40,7 @@ module.exports = {
       {
         title: "Tools", // 必要的
         collapsable: false, // 可选的, 默认值是 true,
-        children: [
-          'pages/vs-code/extensions'
-        ]
+        children: ["pages/vs-code/extensions", "pages/vs-code/env"]
       }
     ],
     lastUpdated: "Last Updated",

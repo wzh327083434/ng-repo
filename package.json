@@ -12,14 +12,14 @@
     "lint-md:fix": "lint-md --fix ."
   },
   "husky": {
-      "hooks": {
-          "pre-commit": "npm test",
-          "pre-push": "lint-staged"
-      }
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{md,markdown}": [
-      "lint-md"
+      "lint-md --fix"
     ]
   },
   "repository": {
