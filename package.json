@@ -1,0 +1,26 @@
+{
+  "name": "ng-repo",
+  "version": "1.0.0",
+  "description": "angular study docs",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzh327083434/ng-repo.git"
+  },
+  "keywords": [
+    "angular",
+    "typescript",
+    "vuepress"
+  ],
+  "author": "wuzhihao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wzh327083434/ng-repo/issues"
+  },
+  "homepage": "https://github.com/wzh327083434/ng-repo#readme"
+}
