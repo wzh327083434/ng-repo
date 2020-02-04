@@ -18,8 +18,8 @@
       }
   },
   "lint-staged": {
-    "*.md": [
-      "lint-md:fix"
+    "*.{md,markdown}": [
+      "lint-md"
     ]
   },
   "repository": {
