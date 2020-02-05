@@ -37,6 +37,7 @@ home: true
 <li class="item">
 <img class="item-icon" src="/assets/img/other.svg">
 
+[markdown Doc](/pages/other/markdown)  
 [TSLint Doc](https://palantir.github.io/tslint/)  
 [NG TSLint Doc](https://github.com/fulls1z3/angular-tslint-rules)  
 [参考 美团](https://tech.meituan.com/2019/01/17/exploring-the-tslint-static-checking-tool-on-the-react-native-project.html)  
@@ -46,6 +47,7 @@ home: true
 [StyleLint Doc](https://ui-router.github.io/ng2/)
 
 [husky](https://www.npmjs.com/package/husky)  
+[lint-staged](https://github.com/okonet/lint-staged)  
 [editorconfig Doc](https://editorconfig.org)  
 [eclint Doc](https://github.com/jedmao/eclint)  
 [prettier](https://prettier.io/)  

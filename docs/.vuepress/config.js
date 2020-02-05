@@ -46,6 +46,11 @@ module.exports = {
         title: 'Tools', // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         children: ['pages/tools/extensions', 'pages/tools/faq', 'pages/tools/todo']
+      },
+      {
+        title: 'Other', // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        children: ['/pages/other/markdown']
       }
     ],
     lastUpdated: 'Last Updated',
