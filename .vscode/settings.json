@@ -10,6 +10,16 @@
     // For Stylelint
     "source.fixAll.stylelint": true
   },
+  "json.schemas": [
+    {
+      "fileMatch": ["package.json"],
+      "url": "http://json.schemastore.org/package"
+    },
+    {
+      "fileMatch": ["tslint.json"],
+      "url": "http://json.schemastore.org/tslint"
+    }
+  ],
   // 控制何时自动保存已更新文件。
   // 接受值有: "off"、"afterDelay"、"onFocusChange" (编辑器失去焦点)、"onWindowChange" (窗口失去焦点)。如果设置为 "afterDelay"，可在 "files.autoSaveDelay" 中配置延迟时间。
   "files.autoSave": "off",

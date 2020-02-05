@@ -1,4 +1,5 @@
 {
+  "$schema": "http://json.schemastore.org/package",
   "name": "ng-repo",
   "version": "1.0.0",
   "description": "angular study docs",

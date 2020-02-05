@@ -28,28 +28,33 @@ module.exports = {
         children: []
       },
       {
-        title: 'TypeScript', // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
+        title: 'TypeScript',
+        collapsable: false,
         children: []
       },
       {
-        title: 'UiRouter', // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
+        title: 'UiRouter',
+        collapsable: false,
         children: []
       },
       {
-        title: 'RxJs', // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
+        title: 'RxJs',
+        collapsable: false,
         children: []
       },
       {
-        title: 'Tools', // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
+        title: 'ES6',
+        collapsable: false,
+        children: ['pages/es6/conclusion.md']
+      },
+      {
+        title: 'Tools',
+        collapsable: false,
         children: ['pages/tools/extensions', 'pages/tools/faq', 'pages/tools/todo']
       },
       {
-        title: 'Other', // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
+        title: 'Other',
+        collapsable: true,
         children: ['/pages/other/markdown']
       }
     ],

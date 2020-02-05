@@ -117,8 +117,15 @@ _斜体_
 ![图片加载失败Alt](图片地址 '图片Title')
 ```
 
-![](http://zh.mweb.im/asset/img/set-up-git.gif)
-![GitHub set up](http://zh.mweb.im/asset/img/set-up-git.gif '图片Title')
+<center>
+<img width="30px" height="30px" title="logo" alt="logo" src="/docs/assets/img/logo.svg"/>
+</center>
+
+<center>
+
+![baidu logo](https://www.baidu.com/img/baidu_jgylogo3.gif '图片Title')
+
+</center>
 
 ## 多级引用
 

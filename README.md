@@ -11,7 +11,8 @@
 2.typescript  
 3.ui-router  
 4.rxjs  
-5.vuepress
+5.es6  
+6.vuepress
 
 ## 项目启动
 
@@ -25,6 +26,6 @@
 
 ## 项目文档
 
-- [目录(/docs/README.md)](/docs/README)
+- [文档目录(/docs/README.md)](/docs/README)
 - 查看编辑文档: `yarn docs:dev` or `npm run docs:dev`
 - 打包文档: `yarn docs:build` or `npm run docs:build`

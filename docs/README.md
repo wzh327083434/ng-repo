@@ -51,7 +51,8 @@ home: true
 [editorconfig Doc](https://editorconfig.org)  
 [eclint Doc](https://github.com/jedmao/eclint)  
 [prettier](https://prettier.io/)  
-[prettier 参考](https://segmentfault.com/a/1190000015315545?utm_source=tag-newest)
+[prettier 参考](https://segmentfault.com/a/1190000015315545?utm_source=tag-newest)  
+[lint-md](https://www.npmjs.com/package/lint-md)
 
 [commitlint Doc](https://ui-router.github.io/ng2/)  
 [ESLint Doc](https://ui-router.github.io/ng2/)  
@@ -62,7 +63,7 @@ home: true
 </ul>
 </div>
 
-<style>
+<style style="display:none;">
 .summary {
   display: flex;
   justify-content: space-between;
