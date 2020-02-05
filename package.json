@@ -10,7 +10,9 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "lint-md": "lint-md .",
-    "lint-md:fix": "lint-md --fix ."
+    "lint-md:fix": "lint-md --fix .",
+    "eclint": "bash -c 'env eclint check $(git ls-files)'",
+    "eclint:fix": "bash -c 'env eclint fix $(git ls-files)'"
   },
   "husky": {
     "hooks": {
@@ -41,6 +43,8 @@
   "homepage": "https://github.com/wzh327083434/ng-repo#readme",
   "devDependencies": {
     "codelyzer": "^5.2.1",
+    "eclint": "^2.8.1",
+    "exec-extra": "^2.8.0",
     "husky": "^4.2.1",
     "lint-md-cli": "^0.1.2",
     "lint-staged": "^10.0.7",

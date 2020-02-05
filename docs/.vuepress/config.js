@@ -54,7 +54,7 @@ module.exports = {
       },
       {
         title: 'Other',
-        collapsable: true,
+        collapsable: false,
         children: ['/pages/other/markdown']
       }
     ],

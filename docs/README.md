@@ -63,7 +63,7 @@ home: true
 </ul>
 </div>
 
-<style style="display:none;">
+<style>
 .summary {
   display: flex;
   justify-content: space-between;
