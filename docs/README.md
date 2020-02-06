@@ -37,14 +37,15 @@ home: true
 <li class="item">
 <img class="item-icon" src="/assets/img/other.svg">
 
-[markdown Doc](/pages/other/markdown)  
-[TSLint Doc](https://palantir.github.io/tslint/)  
-[NG TSLint Doc](https://github.com/fulls1z3/angular-tslint-rules)  
+[Markdown Note](/pages/other/markdown)  
+[TSLint](https://palantir.github.io/tslint/)  
+[NG TSLint](https://github.com/fulls1z3/angular-tslint-rules)  
 [参考 美团](https://tech.meituan.com/2019/01/17/exploring-the-tslint-static-checking-tool-on-the-react-native-project.html)  
 [AlloyTeam TSLint](https://github.com/AlloyTeam/tslint-config-alloy/blob/master/index.js)  
 [codelyzer](https://www.baidu.com/s?wd=codelyzer&tn=98012088_2_dg&ch=8)
 
-[StyleLint Doc](https://ui-router.github.io/ng2/)
+[StyleLint](https://stylelint.io/)  
+[PostCSS](https://www.postcss.com.cn/)
 
 [husky](https://www.npmjs.com/package/husky)  
 [lint-staged](https://github.com/okonet/lint-staged)  

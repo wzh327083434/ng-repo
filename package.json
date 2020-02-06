@@ -24,6 +24,9 @@
     "*.md": [
       "prettier --list-different",
       "lint-md --fix"
+    ],
+    "*.{css,less}": [
+      "stylelint"
     ]
   },
   "repository": {
@@ -44,7 +47,7 @@
   "devDependencies": {
     "codelyzer": "^5.2.1",
     "eclint": "^2.8.1",
-    "exec-extra": "^2.8.0",
+    "exec-extra": "2.4.0",
     "husky": "^4.2.1",
     "lint-md-cli": "^0.1.2",
     "lint-staged": "^10.0.7",

@@ -10,3 +10,5 @@
 npm i --save-dev exec-extra
 env eclint check \$(git ls-files)
 ```
+
+3.命名规范……
