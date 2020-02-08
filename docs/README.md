@@ -45,7 +45,7 @@ home: true
 [codelyzer](https://www.baidu.com/s?wd=codelyzer&tn=98012088_2_dg&ch=8)
 
 [StyleLint](https://stylelint.io/)  
-[PostCSS](https://www.postcss.com.cn/)
+[PostCSS](https://github.com/postcss/postcss/blob/master/README-cn.md)
 
 [husky](https://www.npmjs.com/package/husky)  
 [lint-staged](https://github.com/okonet/lint-staged)  
