@@ -2,6 +2,30 @@
 # yarn lockfile v1
 
 
+"@angular/common@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.npm.taobao.org/@angular/common/download/@angular/common-9.0.0.tgz#0e3b2452d42f87d1825a448a31ad72c593ee0785"
+
+"@angular/compiler@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.npm.taobao.org/@angular/compiler/download/@angular/compiler-9.0.0.tgz#87e0bef4c369b6cadae07e3a4295778fc93799d5"
+
+"@angular/core@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.npm.taobao.org/@angular/core/download/@angular/core-9.0.0.tgz#227dc53e1ac81824f998c6e76000b7efc522641e"
+
+"@angular/forms@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.npm.taobao.org/@angular/forms/download/@angular/forms-9.0.0.tgz#2017e4ddee101fa57dc5dc9ba1139b1f02499422"
+
+"@angular/platform-browser-dynamic@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.npm.taobao.org/@angular/platform-browser-dynamic/download/@angular/platform-browser-dynamic-9.0.0.tgz#1b87355c20d0b2a046c1914085701a3d5ced52da"
+
+"@angular/platform-browser@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.npm.taobao.org/@angular/platform-browser/download/@angular/platform-browser-9.0.0.tgz#b9454f29d8edaf024668baa9e07083eef73deac2"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.npm.taobao.org/@babel/code-frame/download/@babel/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -7052,7 +7076,7 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs@^6.3.3:
+rxjs@^6.3.3, rxjs@^6.5.4:
   version "6.5.4"
   resolved "https://registry.npm.taobao.org/rxjs/download/rxjs-6.5.4.tgz#e0777fe0d184cec7872df147f303572d414e211c"
   dependencies:
@@ -8889,3 +8913,7 @@ yargs@12.0.5, yargs@^12.0.2:
 zepto@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/zepto/download/zepto-1.2.0.tgz#e127bd9e66fd846be5eab48c1394882f7c0e4f98"
+
+zone.js@^0.10.2:
+  version "0.10.2"
+  resolved "https://registry.npm.taobao.org/zone.js/download/zone.js-0.10.2.tgz#67ca084b3116fc33fc40435e0d5ea40a207e392e"

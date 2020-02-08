@@ -26,5 +26,7 @@
   // "files.autoSaveDelay": 3000,
   "files.associations": {
     "tslint.json": "jsonc"
-  }
+  },
+  "tslint.rulesDirectory": "./node_modules/codelyzer",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

@@ -7,6 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod --optimization --progress --extractCss",
+    "lint": "ng lint --typeCheck --fix",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "lint-md": "lint-md .",
@@ -45,6 +49,10 @@
   },
   "homepage": "https://github.com/wzh327083434/ng-repo#readme",
   "devDependencies": {
+    "@angular-devkit/build-angular": "^0.900.1",
+    "@angular/cli": "^9.0.1",
+    "@angular/compiler-cli": "^9.0.0",
+    "@types/node": "^13.7.0",
     "codelyzer": "^5.2.1",
     "eclint": "^2.8.1",
     "exec-extra": "2.4.0",
@@ -55,10 +63,24 @@
     "stylelint": "^13.0.0",
     "stylelint-config-prettier": "^8.0.1",
     "stylelint-prettier": "^1.1.2",
+    "ts-node": "^8.6.2",
     "tslint": "5.20.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.1.0",
     "typescript": "^3.7.5",
     "vuepress": "^1.3.0"
+  },
+  "dependencies": {
+    "@angular/animations": "^9.0.0",
+    "@angular/common": "^9.0.0",
+    "@angular/compiler": "^9.0.0",
+    "@angular/core": "^9.0.0",
+    "@angular/forms": "^9.0.0",
+    "@angular/platform-browser": "^9.0.0",
+    "@angular/platform-browser-dynamic": "^9.0.0",
+    "@uirouter/angular": "^6.0.1",
+    "rxjs": "^6.5.4",
+    "tslib": "^1.10.0",
+    "zone.js": "^0.10.2"
   }
 }

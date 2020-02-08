@@ -1,6 +1,7 @@
 // https://github.com/fulls1z3/angular-tslint-rules/blob/master/tslint.json
 {
   "extends": ["tslint-plugin-prettier", "tslint-config-prettier"],
+  "rulesDirectory": ["node_modules/codelyzer"],
   "rules": {
     "prettier": true,
     "no-unnecessary-class": [
