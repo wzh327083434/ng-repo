@@ -33,6 +33,7 @@
   },
   "lint-staged": {
     "*": [
+      "eclint check",
       "prettier --list-different"
     ],
     "*.md": [
