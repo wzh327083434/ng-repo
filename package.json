@@ -9,16 +9,18 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "server": "node server.js",
-    "test": "ng test",
-    "lint": "ng lint --typeCheck",
-    "lint:fix": "ng lint --typeCheck --fix",
-    "e2e": "ng e2e",
+    "build": "ng build --optimization=true --commonChunk=true --extractCss=true",
+    "server": "nodemon server.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "lint-ts": "ng lint --typeCheck",
+    "lint-ts:fix": "ng lint --typeCheck --fix",
+    "lint-style": "stylelint src/**/*.less --syntax less",
+    "lint-style:fix": "stylelint src/**/*.less --syntax less --fix",
     "lint-md": "lint-md .",
     "lint-md:fix": "lint-md --fix .",
+    "e2e": "ng e2e",
+    "test": "ng test",
     "eclint": "bash -c 'env eclint check $(git ls-files)'",
     "eclint:fix": "bash -c 'env eclint fix $(git ls-files)'"
   },
@@ -30,8 +32,10 @@
     }
   },
   "lint-staged": {
+    "*": [
+      "prettier --list-different"
+    ],
     "*.md": [
-      "prettier --list-different",
       "lint-md --fix"
     ],
     "*.{css,less}": [
@@ -65,6 +69,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
+    "core-js": "~2.6.9",
     "eclint": "^2.8.1",
     "exec-extra": "2.4.0",
     "express": "^4.17.1",
@@ -79,10 +84,13 @@
     "karma-jasmine-html-reporter": "^1.4.2",
     "lint-md-cli": "^0.1.2",
     "lint-staged": "^10.0.7",
+    "nodemon": "^2.0.2",
     "prettier": "1.19.1",
     "protractor": "~5.4.3",
     "stylelint": "^13.0.0",
     "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^4.0.0",
     "stylelint-prettier": "^1.1.2",
     "ts-node": "~8.3.0",
     "tslint": "^5.20.0",

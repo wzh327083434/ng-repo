@@ -1,7 +1,7 @@
 // https://stylelint.io/user-guide/rules or http://stylelint.cn/user-guide/rules/
 module.exports = {
-  extends: ['stylelint-prettier/recommended'],
-  plugins: [],
+  extends: ['stylelint-config-rational-order', 'stylelint-prettier/recommended'],
+  plugins: ['stylelint-order'],
   processors: [],
   rules: {
     // 禁止使用未知规则
@@ -200,9 +200,19 @@ module.exports = {
     // 禁止未知的伪类选择器
     'selector-pseudo-class-no-unknown': true,
     // 禁止使用未知的伪元素选择器
-    'selector-pseudo-element-no-unknown': true,
+    'selector-pseudo-element-no-unknown': [
+      true,
+      {
+        ignorePseudoElements: ['ng-deep']
+      }
+    ],
     // 禁止未知类型选择器
-    'selector-type-no-unknown': true,
+    'selector-type-no-unknown': [
+      true,
+      {
+        ignoreTypes: ['/^app-/']
+      }
+    ],
     // 限制选择器中相邻空行数量: 0
     'selector-max-empty-lines': 0,
 
@@ -261,5 +271,6 @@ module.exports = {
     'value-list-comma-space-before': 'never',
     // 值列表中相邻空行数量 最大0
     'value-list-max-empty-lines': 0
-  }
+  },
+  ignoreFiles: []
 };
