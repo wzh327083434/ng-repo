@@ -7,6 +7,10 @@
   1.打开 git bash  
   2.执行 git --version
 
+### 检查包依赖
+
+`npx check-peer-dependencies [--yarn|--npm] [--install] [--help]`
+
 ### husky 无效时
 
 1. 需升级 git 版本;
