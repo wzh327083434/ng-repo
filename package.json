@@ -19,10 +19,12 @@
     "lint-style:fix": "stylelint src/**/*.less --syntax less --fix",
     "lint-md": "lint-md .",
     "lint-md:fix": "lint-md --fix .",
-    "e2e": "ng e2e",
-    "test": "ng test",
     "eclint": "bash -c 'env eclint check $(git ls-files)'",
-    "eclint:fix": "bash -c 'env eclint fix $(git ls-files)'"
+    "eclint:fix": "bash -c 'env eclint fix $(git ls-files)'",
+    "prettier": "prettier -l \"./**/*\"",
+    "prettier:fix": "prettier --write -l \"./**/*\"",
+    "e2e": "ng e2e",
+    "test": "ng test"
   },
   "private": true,
   "husky": {

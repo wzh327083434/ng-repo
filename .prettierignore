@@ -1,4 +1,21 @@
 dist/
 tmp/
 
+node_modules/
+
 .docs/.vuepress/dist/
+docs/.vuepress/public/
+
+.editorconfig
+.gitignore
+.lintmdrc
+.npmrc
+.prettierignore
+.stylelintignore
+.yarnrc
+angular-tslint-rules/
+browserslist
+src/favicon.ico
+
+**/.gitkeep
+**/LICENSE

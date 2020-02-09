@@ -1,1 +1,6 @@
-# stylelint ignore
+dist/
+tmp/
+
+node_modules/
+
+.docs/.vuepress/dist/
