@@ -12,3 +12,7 @@ env eclint check \$(git ls-files)
 ```
 
 3.命名规范……
+
+4.node 相关
+
+- apicache 用于 api 缓存 https://www.npmjs.com/package/apicache

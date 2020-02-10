@@ -42,6 +42,21 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 5.es6  
 6.vuepress
 
+## 项目目录结构
+
+```md
+ng-repe
+|--docs 文档
+|--src
+|----app 项目源码
+|------core 根模块
+|------pages 所有页面
+|------services 所有服务
+|------share 共享模块(公共模块/指令/过滤器等)
+|------utils 公共方法
+|----assets 静态资源及基础样式
+```
+
 ## 项目启动
 
 - `yarn` or `npm i`

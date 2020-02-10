@@ -10,14 +10,7 @@ if (environment.production) {
 
 platformBrowserDynamic()
   .bootstrapModule(AppModule)
-  .then((ref) => {
-    // Ensure Angular destroys itself on stackblitz hot reloads.
-    if (window['ngRef']) {
-      window['ngRef'].destroy();
-    }
-    window['ngRef'] = ref;
-  })
   .catch((err): void => {
-    // Otherwise, log the boot error
+    // log the boot error
     console.error(err);
   });
